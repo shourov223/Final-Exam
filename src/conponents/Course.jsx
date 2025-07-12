@@ -10,7 +10,7 @@ import vector from "../assets/Vector.svg"
 const Course = () => {
     return (
         <section className="mt-[800px] pb-[176px] relative">
-            <Image width={65} height={76} className="absolute bottom-[80px] right-[80px] animate-bounce" src={vector} alt="icon" />
+            <Image width={65} height={76} className="absolute bottom-[80px] right-[80px] animate-top-to-bottom" src={vector} alt="icon" />
             <div className="container">
                 <p className="text-[#2F57EF] text-[18px] font-bold leading-[31.5px] tracking-[-0.3px] text-center">Top Popular Course</p>
                 <h2 className="text-[#192335] font-bold text-[42px] leading-[54.1px] pt-[10px] text-center pb-[60px]">Building a better tomorrow</h2>

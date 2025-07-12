@@ -15,3 +15,43 @@
 .shadow-box {
     box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
 }
+
+.knowledge_shawow {
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+}
+
+.knowledge_background {
+    background: url("../assets/knowledge_bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@theme {
+    --color-primary: #192335;
+
+
+    /* animation */
+    --animate-left-to-right: left-to-right 1s ease-in-out infinite alternate;
+
+    @keyframes left-to-right {
+        0% {
+            right: 10px;
+        }
+
+        100% {
+            right: 0px;
+        }
+    }
+
+    --animate-top-to-bottom : top-to-bottom 1s ease-in-out infinite alternate;
+        @keyframes top-to-bottom {
+        0% {
+            bottom: 20px;
+        }
+
+        100% {
+            bottom: 0;
+        }
+    }
+}
