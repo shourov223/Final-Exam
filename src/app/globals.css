@@ -29,6 +29,7 @@
 
 @theme {
     --color-primary: #192335;
+    --tracking-common: -0.3px;
 
 
     /* animation */
@@ -45,7 +46,8 @@
     }
 
     --animate-top-to-bottom : top-to-bottom 1s ease-in-out infinite alternate;
-        @keyframes top-to-bottom {
+
+    @keyframes top-to-bottom {
         0% {
             bottom: 20px;
         }
