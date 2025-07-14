@@ -27,8 +27,24 @@
     background-repeat: no-repeat;
 }
 
+.world_image {
+    background: url("../assets/world.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 50;
+}
+
+.vision_bg {
+    background: url("../assets/vision_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 @theme {
     --color-primary: #192335;
+    --color-secondary: #2F57EF;
     --tracking-common: -0.3px;
 
 

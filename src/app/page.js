@@ -1,3 +1,4 @@
+import "slick-carousel/slick/slick.css";
 import Banner from "@/conponents/Banner";
 import BannerTopbar from "@/conponents/BannerTopbar";
 import Company from "@/conponents/Company";
@@ -8,6 +9,7 @@ import Knowledge from "@/conponents/Knowledge";
 import Navbar from "@/conponents/Navbar";
 import Partnar from "@/conponents/Partnar";
 import PopularCourse from "@/conponents/PopularCourse";
+import Vision from "@/conponents/Vision";
 
 
 export default function Home() {
@@ -23,6 +25,7 @@ export default function Home() {
       <Email />
       <Partnar />
       <Company />
+      <Vision />
     </>
   );
 }
