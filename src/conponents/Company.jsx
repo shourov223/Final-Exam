@@ -39,7 +39,7 @@ const Company = () => {
     return (
         <section className="pt-[60px] md:pt-[90px] lg:pt-[120px]">
             <div className="container world_image">
-                <div className="py-[30px] md:py-[45px] lg:py-[60px] px-[20px] md:px-[40px] knowledge_shawow flex flex-wrap items-center justify-center gap-[20px] md:gap-[40px] lg:gap-[129px] bg-white rounded-[5px] mb-[60px] md:mb-[85px] lg:mb-[111px]">
+                <div className="py-[30px] md:py-[45px] lg:py-[60px] px-[20px] md:px-[40px] knowledge_shawow flex items-center justify-center gap-[20px] md:gap-[40px] lg:gap-[129px] bg-white rounded-[5px] mb-[60px] md:mb-[85px] lg:mb-[111px]">
                     <div>
                         <Image src={c_one} alt="image" className="w-auto h-[25px] md:h-[35px] lg:h-auto" />
                     </div>
@@ -57,9 +57,9 @@ const Company = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="pb-[100px]">
                     <p className="text-[14px] md:text-[16px] lg:text-[18px] text-secondary font-bold leading-[24px] md:leading-[28px] lg:leading-[31.5px] tracking-common pb-[20px] md:pb-[25px] lg:pb-[31px]">Clients review</p>
-                    <h2 className="text-primary text-[28px] md:text-[36px] lg:text-[42px] leading-[36px] md:leading-[46px] lg:leading-[54.1px] pb-[40px] md:pb-[50px] lg:pb-[60px] max-w-full lg:max-w-[414px] font-bold">Expert Guidance for Your Journey</h2>
+                    <h2 className="text-primary text-wrap text-[28px] md:text-[36px] lg:text-[42px] leading-[36px] md:leading-[46px] lg:leading-[54.1px] pb-[40px] md:pb-[50px] lg:pb-[60px] max-w-[414px] lg:max-w-[414px] font-bold">Expert Guidance for Your Journey</h2>
                     <Slider {...settings} className="relative">
                         <div>
                             <Slide name={"Courtney Henry"} text={"Architecto id sint aut est molestiae reiciendis. Minima quis illo. Accusamus repudiandae neque veniam. Quasi rerum sit consequuntur aut tenetur ."} title={"Marketing specialist"} />
@@ -79,7 +79,7 @@ const Company = () => {
 
 const Slide = ({ text, name, title }) => {
     return (
-        <div className="max-w-[410px] p-[20px] md:p-[30px] lg:p-10 rounded-[5px] bg-white shadow-box mx-[20px]">
+        <div className="max-w-[410px] p-[20px] md:p-[30px] h-[373px] lg:p-10 rounded-[5px] bg-white shadow-box mx-[20px]">
             <div className="flex items-center justify-between gap-2">
                 <ul className="flex items-center gap-1 md:gap-2">
                     <li><FaStar className="text-[#FFBA08] text-[14px] md:text-[16px]" /></li>

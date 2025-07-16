@@ -10,6 +10,7 @@ import Navbar from "@/conponents/Navbar";
 import Partnar from "@/conponents/Partnar";
 import PopularCourse from "@/conponents/PopularCourse";
 import Vision from "@/conponents/Vision";
+import News from "@/conponents/News";
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Partnar />
       <Company />
       <Vision />
+      <News/>
     </>
   );
 }

@@ -9,7 +9,7 @@ import vector from "../assets/Vector.svg";
 
 const Course = () => {
     return (
-        <section className="mt-[800px] pb-[176px] relative">
+        <section className="mt-[600px] sm:mt-[800px] md:mt-[1000px] lg:mt-[650px] xl:mt-[700px] pb-[176px] relative">
             <Image
                 width={65}
                 height={76}

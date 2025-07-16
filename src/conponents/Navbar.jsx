@@ -52,7 +52,7 @@ const Navbar = () => {
 
 const List_item = ({ text, href }) => {
     return (
-        <li className="text-[#1F242C] text-[14px] md:text-[16px] font-semibold leading-[130%] flex items-center gap-1 cursor-pointer">
+        <li className="text-[#1F242C] text-[14px] md:text-[16px] whitespace-nowrap font-semibold leading-[130%] flex items-center gap-1 cursor-pointer">
             <Link href={href}>{text}</Link>
             <RiArrowDropDownLine />
         </li>

@@ -7,8 +7,8 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6"
 const Partnar = () => {
     return (
         <section className="pt-[120px] px-4 sm:px-6 lg:px-0">
-            <div className="container max-w-[1200px] mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-[319px_1fr] gap-8 items-start">
+            <div className="container">
+                <div className="grid grid-cols-1 md:grid-cols-[319px_1fr] gap-2 items-start">
                     {/* Left Text */}
                     <div>
                         <p className="text-[#2F57EF] text-[18px] leading-[31.5px] font-bold tracking-common pb-[30px]">
