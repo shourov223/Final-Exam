@@ -11,6 +11,7 @@ import Partnar from "@/conponents/Partnar";
 import PopularCourse from "@/conponents/PopularCourse";
 import Vision from "@/conponents/Vision";
 import News from "@/conponents/News";
+import Footer from "@/conponents/Footer";
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Company />
       <Vision />
       <News/>
+      <Footer/>
     </>
   );
 }
