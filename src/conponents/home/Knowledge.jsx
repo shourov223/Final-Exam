@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { CommonPart } from "./PopularCourse";
-import knowledge from "../assets/knowledge.png";
+import knowledge from "../../assets/knowledge.png";
 import { FaCheckCircle } from "react-icons/fa";
-import threeLineDots from "../assets/3-lineDots.png";
+import threeLineDots from "../../assets/3-lineDots.png";
 
 const Knowledge = () => {
     return (
@@ -44,7 +44,7 @@ const Knowledge = () => {
     );
 };
 
-const Point = ({ title, text }) => {
+export const Point = ({ title, text }) => {
     return (
         <li className="flex gap-4 items-start">
             <FaCheckCircle className="text-[#3D64FF] mt-1.5 text-[20px]" />

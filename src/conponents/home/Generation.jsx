@@ -1,8 +1,8 @@
-import gOne from "../assets/gOne.svg"
-import gTwo from "../assets/gTwo.svg"
-import gThree from "../assets/gThree.svg"
-import gFour from "../assets/gFour.svg"
-import bolt from "../assets/bolt.svg"
+import gOne from "../../assets/gOne.svg"
+import gTwo from "../../assets/gTwo.svg"
+import gThree from "../../assets/gThree.svg"
+import gFour from "../../assets/gFour.svg"
+import bolt from "../../assets/bolt.svg"
 import Image from "next/image"
 import { FaArrowRight } from "react-icons/fa6"
 

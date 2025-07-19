@@ -1,5 +1,5 @@
 import Image from "next/image"
-import books from "../assets/books.svg"
+import books from "../../assets/books.svg"
 import { FaCheck, FaLocationDot } from "react-icons/fa6"
 import Link from "next/link"
 import { IoCall } from "react-icons/io5"

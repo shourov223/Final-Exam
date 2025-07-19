@@ -1,24 +1,19 @@
 import "slick-carousel/slick/slick.css";
-import Banner from "@/conponents/Banner";
-import BannerTopbar from "@/conponents/BannerTopbar";
-import Company from "@/conponents/Company";
-import Course from "@/conponents/Course";
-import Email from "@/conponents/Email";
-import Generation from "@/conponents/Generation";
-import Knowledge from "@/conponents/Knowledge";
-import Navbar from "@/conponents/Navbar";
-import Partnar from "@/conponents/Partnar";
-import PopularCourse from "@/conponents/PopularCourse";
-import Vision from "@/conponents/Vision";
-import News from "@/conponents/News";
-import Footer from "@/conponents/Footer";
+import Banner from "@/conponents/home/Banner.jsx";
+import Company from "@/conponents/home/Company.jsx";
+import Course from "@/conponents/home/Course.jsx";
+import Email from "@/conponents/home/Email.jsx";
+import Generation from "@/conponents/home/Generation.jsx";
+import Knowledge from "@/conponents/home/Knowledge.jsx";
+import Partnar from "@/conponents/home/Partnar.jsx";
+import PopularCourse from "@/conponents/home/PopularCourse.jsx";
+import Vision from "@/conponents/home/Vision.jsx";
+import News from "@/conponents/home/News.jsx";
 
 
 export default function Home() {
   return (
     <>
-      <BannerTopbar />
-      <Navbar />
       <Banner />
       <Course />
       <PopularCourse />
@@ -29,7 +24,6 @@ export default function Home() {
       <Company />
       <Vision />
       <News/>
-      <Footer/>
     </>
   );
 }

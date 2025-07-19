@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { FaArrowRight, FaStar } from "react-icons/fa6";
 import { IoPersonOutline } from "react-icons/io5";
-import course from "../assets/course-1.png";
-import course_one from "../assets/course_one.png";
-import course_two from "../assets/course_two.png";
-import course_three from "../assets/course_three.png";
-import vector from "../assets/Vector.svg";
+import course from "../../assets/course-1.png";
+import course_one from "../../assets/course_one.png";
+import course_two from "../../assets/course_two.png";
+import course_three from "../../assets/course_three.png";
+import vector from "../../assets/Vector.svg";
 
 const Course = () => {
     return (

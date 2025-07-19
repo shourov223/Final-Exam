@@ -1,14 +1,14 @@
 "use client"
-import c_one from "../assets/c_one.svg"
-import c_two from "../assets/c_two.svg"
-import c_three from "../assets/c_three.svg"
-import c_four from "../assets/c_four.svg"
-import c_five from "../assets/c_five.svg"
-import sliderImage from "../assets/sliderImage.png"
+import c_one from "../../assets/c_one.svg"
+import c_two from "../../assets/c_two.svg"
+import c_three from "../../assets/c_three.svg"
+import c_four from "../../assets/c_four.svg"
+import c_five from "../../assets/c_five.svg"
+import sliderImage from "../../assets/sliderImage.png"
 import Image from "next/image"
 import Slider from "react-slick"
 import { FaStar } from "react-icons/fa6"
-import quote from "../assets/quote.svg"
+import quote from "../../assets/quote.svg"
 
 const Company = () => {
     const settings = {
@@ -56,7 +56,6 @@ const Company = () => {
                         <Image src={c_five} alt="image" className="w-auto h-[25px] md:h-[35px] lg:h-auto" />
                     </div>
                 </div>
-
                 <div className="pb-[100px]">
                     <p className="text-[14px] md:text-[16px] lg:text-[18px] text-secondary font-bold leading-[24px] md:leading-[28px] lg:leading-[31.5px] tracking-common pb-[20px] md:pb-[25px] lg:pb-[31px]">Clients review</p>
                     <h2 className="text-primary text-wrap text-[28px] md:text-[36px] lg:text-[42px] leading-[36px] md:leading-[46px] lg:leading-[54.1px] pb-[40px] md:pb-[50px] lg:pb-[60px] max-w-[414px] lg:max-w-[414px] font-bold">Expert Guidance for Your Journey</h2>

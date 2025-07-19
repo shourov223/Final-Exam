@@ -46,11 +46,19 @@
     background-position: center;
     background-size: cover;
 }
-.footer_bg{
+
+.footer_bg {
     background: url("../assets/footer_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about_banner {
+    background: url("../assets/about_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @theme {
@@ -64,11 +72,11 @@
 
     @keyframes left-to-right {
         0% {
-            right: 10px;
+            margin-right: 10px;
         }
 
         100% {
-            right: 0px;
+            margin-right: 0px;
         }
     }
 

@@ -1,6 +1,6 @@
-import partnar_one from "../assets/partnar_one.png"
-import partnar_two from "../assets/partnar_two.png"
-import partnar_three from "../assets/partnar_three.png"
+import partnar_one from "../../assets/partnar_one.png"
+import partnar_two from "../../assets/partnar_two.png"
+import partnar_three from "../../assets/partnar_three.png"
 import Image from "next/image"
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6"
 

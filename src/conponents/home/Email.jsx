@@ -1,7 +1,7 @@
 import Image from "next/image"
-import email from "../assets/email.svg"
+import email from "../../assets/email.svg"
 import { MdEmail } from "react-icons/md"
-import thunder from "../assets/thunder.svg"
+import thunder from "../../assets/thunder.svg"
 
 const Email = () => {
     return (

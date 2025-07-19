@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
-import chat from "../assets/chat.png";
+import chat from "../../assets/chat.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 md:gap-[30px] mt-[30px] lg:mt-0">
                     <ul className="flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-[25px] ml-0 lg:ml-[300px]">
                         <List_item text={"Home"} href={"/"} />
-                        <List_item text={"About Us"} href={"/"} />
+                        <List_item text={"About Us"} href="/about" />
                         <List_item text={"Services"} href={"/"} />
                         <List_item text={"Projects"} href={"/"} />
                         <List_item text={"Blog"} href={"/"} />

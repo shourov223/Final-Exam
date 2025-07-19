@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { FaCheckCircle } from "react-icons/fa";
-import Education from "../assets/education.png";
-import dots from "../assets/dots.svg";
-import stars from "../assets/stars.svg";
+import Education from "../../assets/education.png";
+import dots from "../../assets/dots.svg";
+import stars from "../../assets/stars.svg";
 
 const PopularCourse = () => {
     return (
@@ -16,6 +16,10 @@ const PopularCourse = () => {
                     <p className="text-white font-medium text-[16px] md:text-[21px] tracking-[-0.3px] w-full md:w-[112px] text-center md:text-left">
                         Years Of experience
                     </p>
+                </div>
+
+                <div>
+                    <CommonPart />
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] items-center gap-[28px] relative">

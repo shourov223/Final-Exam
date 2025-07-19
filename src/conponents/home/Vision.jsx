@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image"
-import vision_image from "../assets/vision_iamge.png"
+import vision_image from "../../assets/vision_iamge.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
