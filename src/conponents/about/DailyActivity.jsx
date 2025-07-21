@@ -10,14 +10,14 @@ const DailyActivity = () => {
     return (
         <section className="pt-[120px]">
             <div className="container">
-                <div className='grid grid-cols-[770px_440px] items-start gap-20'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-[770px_1fr] items-start gap-10'>
                     <div>
                         <div>
                             <Image src={dailyActivity} alt="image" />
                         </div>
-                        <div className="flex items-center gap-[32px] pt-[30px]">
-                            <div className="flex items-center gap-[20px] w-[369px] bg-[#F3F6FB] py-[45px] px-[70px]">
-                                <div className="size-[64px] flex items-center justify-center rounded-full bg-[#33CC79]">
+                        <div className="flex flex-col xl:flex-row items-center gap-[32px] pt-[30px]">
+                            <div className="flex items-center justify-center xl:justify-start gap-[20px] w-full xl:w-[369px] bg-[#F3F6FB] py-5 lx:py-[45px] px-[70px]">
+                                <div className="size-[64px] min-w-[64px] flex items-center justify-center rounded-full bg-[#33CC79]">
                                     <Image src={settings} alt="icons" />
                                 </div>
                                 <div>
@@ -25,8 +25,8 @@ const DailyActivity = () => {
                                     <p className="text-gray-900 text-[21px] font-medium leading-[31.5px] tracking-common">Courses</p>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-[20px] w-[369px] bg-[#F3F6FB] py-[45px] px-[70px]">
-                                <div className="size-[64px] flex items-center justify-center rounded-full bg-[#33CC79]">
+                            <div className="flex items-center justify-center xl:justify-start gap-[20px] w-full xl:w-[369px] bg-[#F3F6FB] py-5 lx:py-[45px] px-[70px]">
+                                <div className="size-[64px] min-w-[64px] flex items-center justify-center rounded-full bg-[#33CC79]">
                                     <Image src={subject} alt="icons" />
                                 </div>
                                 <div>

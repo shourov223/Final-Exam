@@ -32,6 +32,10 @@
     box-shadow: 0 16px 52px 0 rgba(0, 0, 0, 0.07);
 }
 
+.goals_shadow {
+    box-shadow: 0 16px 52px 0 rgba(0, 0, 0, 0.07);
+}
+
 .world_image {
     background: url("../assets/world.png");
     background-repeat: no-repeat;

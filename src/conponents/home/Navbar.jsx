@@ -29,7 +29,7 @@ const Navbar = () => {
                     <ul className="flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-[25px] ml-0 lg:ml-[300px]">
                         <List_item text={"Home"} href={"/"} />
                         <List_item text={"About Us"} href="/about" />
-                        <List_item text={"Services"} href={"/"} />
+                        <List_item text={"Services"} href={"/service"} />
                         <List_item text={"Projects"} href={"/"} />
                         <List_item text={"Blog"} href={"/"} />
                         <List_item text={"Page"} href={"/"} />
