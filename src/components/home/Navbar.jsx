@@ -31,7 +31,7 @@ const Navbar = () => {
                         <List_item text={"About Us"} href="/about" />
                         <List_item text={"Services"} href={"/service"} />
                         <List_item text={"Projects"} href={"/"} />
-                        <List_item text={"Blog"} href={"/"} />
+                        <List_item text={"Blog"} href={"/blog"} />
                         <List_item text={"Page"} href={"/"} />
                         <List_item text={"Contact"} href={"/"} />
                     </ul>

@@ -1,14 +1,14 @@
 import "slick-carousel/slick/slick.css";
-import Banner from "@/conponents/home/Banner.jsx";
-import Company from "@/conponents/home/Company.jsx";
-import Course from "@/conponents/home/Course.jsx";
-import Email from "@/conponents/home/Email.jsx";
-import Generation from "@/conponents/home/Generation.jsx";
-import Knowledge from "@/conponents/home/Knowledge.jsx";
-import Partnar from "@/conponents/home/Partnar.jsx";
-import PopularCourse from "@/conponents/home/PopularCourse.jsx";
-import Vision from "@/conponents/home/Vision.jsx";
-import News from "@/conponents/home/News.jsx";
+import Banner from "@/components/home/Banner.jsx";
+import Company from "@/components/home/Company.jsx";
+import Course from "@/components/home/Course.jsx";
+import Email from "@/components/home/Email.jsx";
+import Generation from "@/components/home/Generation.jsx";
+import Knowledge from "@/components/home/Knowledge.jsx";
+import Partnar from "@/components/home/Partnar.jsx";
+import PopularCourse from "@/components/home/PopularCourse.jsx";
+import Vision from "@/components/home/Vision.jsx";
+import News from "@/components/home/News.jsx";
 
 
 export default function Home() {

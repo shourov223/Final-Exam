@@ -1,5 +1,5 @@
-import Details from "@/conponents/servicedetails/Details"
-import ServiceDetails from "@/conponents/servicedetails/ServiceDetails"
+import Details from "@/components/servicedetails/Details"
+import ServiceDetails from "@/components/servicedetails/ServiceDetails"
 
 const page = () => {
   return (
