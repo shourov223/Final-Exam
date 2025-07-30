@@ -3,6 +3,7 @@ import { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import chat from "../../assets/chat.png";
+import logo from "../../assets/logo.svg"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,7 +15,7 @@ const Navbar = () => {
             <div className="absolute left-0 w-fit cursor-pointer">
                 <Image width={200} height={120} src="/logoShape.svg" alt="shape" className="w-[120px] md:w-[160px] lg:w-[200px]" />
                 <div className="absolute top-[8px] left-[8px] md:top-[13px] md:left-[13px]">
-                    <Image width={143} height={55} src="/logo.svg" alt="logo" className="w-[100px] md:w-[120px] lg:w-[143px]" />
+                    <Image width={143} height={55} src={logo} alt="logo" className="w-[100px] md:w-[120px] lg:w-[143px]" />
                 </div>
             </div>
 
