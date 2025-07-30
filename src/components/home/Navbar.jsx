@@ -30,9 +30,9 @@ const Navbar = () => {
                         <List_item text={"Home"} href={"/"} />
                         <List_item text={"About Us"} href="/about" />
                         <List_item text={"Services"} href={"/service"} />
-                        <List_item text={"Projects"} href={"/"} />
+                        <List_item text={"Service Details"} href={"/servicedetails"} />
                         <List_item text={"Blog"} href={"/blog"} />
-                        <List_item text={"Page"} href={"/"} />
+                        <List_item text={"Blog Details"} href={"/blog-details"} />
                         <List_item text={"Contact"} href={"/contact"} />
                     </ul>
                     <div className="flex items-center gap-[15px] py-1 px-4 lg:px-0">
