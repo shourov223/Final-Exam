@@ -46,7 +46,7 @@ const BlogContent_details = () => {
                         <p className="text-[15px] md:text-[16px] lg:text-[17px] leading-[22px] md:leading-[24px] lg:leading-[26.1px] text-primary pt-[25px] md:pt-[28px] lg:pt-[30px] pb-[35px] md:pb-[42px] lg:pb-[49px]">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virgini</p>
 
                         <div className="flex flex-col lg:flex-row lg:items-start gap-[20px] md:gap-[25px] lg:gap-[30px] pb-[25px] md:pb-[28px] lg:pb-[30px]">
-                            <div className="w-full lg:min-w-[350px] xl:min-w-[410px] h-[200px] md:h-[235px] lg:h-[270px] overflow-hidden rounded-[8px]">
+                            <div className="w-full lg:max-w-[350px] xl:max-w-[410px] h-[200px] md:h-[235px] lg:h-[270px] overflow-hidden rounded-[8px]">
                                 <Image className="w-full h-full object-cover group-hover:scale-[1.1] transition-all duration-500" src={details_two} alt="image" />
                             </div>
                             <div className="flex-1">

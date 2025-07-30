@@ -8,6 +8,7 @@ import { FaCalendarAlt } from "react-icons/fa"
 import { RiSendPlaneFill } from "react-icons/ri"
 import { useState } from "react"
 import { ToastContainer, toast } from 'react-toastify';
+import Link from "next/link"
 
 const News = () => {
     const [email, setEmail] = useState("")
@@ -33,9 +34,9 @@ const News = () => {
                             Transforming your vision into reality
                         </h2>
                     </div>
-                    <a href="/" className="text-[15px] font-medium bg-secondary tracking-[0.5px] py-[18px] md:py-[24px] px-[24px] md:px-[30px] rounded-[5px] text-white whitespace-nowrap">
+                    <Link href="/blog" className="text-[15px] font-medium bg-secondary tracking-[0.5px] py-[18px] md:py-[24px] px-[24px] md:px-[30px] rounded-[5px] text-white whitespace-nowrap">
                         more blogs
-                    </a>
+                    </Link>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px]">
                     <Items image={news_one} text={"Empowering your business for growth"} />
@@ -55,7 +56,7 @@ const News = () => {
                     <div className="w-full lg:w-[588px] p-[10px] rounded-[5px] border border-white/50 flex flex-col sm:flex-row items-center gap-4">
                         <input
                             placeholder="Enter Email Adress"
-                            className="outline-none w-full text-white bg-transparent placeholder:text-white placeholder:text-[17px] text-[17px]"
+                            className="outline-none w-full text-white bg-transparent placeholder:text-white placeholder:text-[17px] text-[17px] focus:outline-0 focus:bg-none"
                             type="email"
                             onChange={getEmail}
                         />
